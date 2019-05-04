@@ -1,3 +1,6 @@
-import  Demo   from "./libs/Demo";
+import  Demo   from "./../../libs/Demo";
 
-Demo.Show();
+Demo  = new Demo();
+
+
+document.getElementById('button').onclick = Demo.Show();

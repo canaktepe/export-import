@@ -1,12 +1,11 @@
-class Demo{
+class Demo {
+	constructor() {
+		this.Show();
+	}
 
-    constructor(){
-        alert('x');
-    }
-
-    Show(){
-        alert('Showed!');
-    }
+	Show() {
+		alert('Showed!');
+	}
 }
 
 export default Demo;
